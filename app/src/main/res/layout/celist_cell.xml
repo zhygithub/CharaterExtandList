@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id_tv_character"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/celist_cell_character_height"
+        android:background="#223344"
+        android:padding="@dimen/celist_cell_padding"
+        android:text="character"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/celist_cell_character_textSize" />
+
+    <TextView
+        android:id="@+id/id_tv_context"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/celist_cell_context_height"
+        android:padding="@dimen/celist_cell_padding"
+        android:text="context"
+        android:textColor="#000000"
+        android:textSize="@dimen/celist_cell_context_textSize" />
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <network.scau.com.charaterextandlist.CEView
+        android:id="@+id/id_ceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </network.scau.com.charaterextandlist.CEView>
+
+</LinearLayout>
